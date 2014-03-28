@@ -1,10 +1,12 @@
-# tardis
+# TARDIS
 
 A playpen for parsing dates.
 
 A Guess: Natural language date parsing is inherently functional, e.g.
-`Saturday at 3pm` is simply a map across Saturdays, and `before May` is
-a filter function.
+`Saturdays at 3pm` is simply a map across Saturdays, and `before May`
+takes days which satisfy the before May predicate. By creating date
+functions that map to common natural language date idioms we can
+compose higher order date specification functions.
 
 To parse dates:
 
