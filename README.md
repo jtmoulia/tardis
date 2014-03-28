@@ -53,8 +53,12 @@ For actual code, see `test/tardis/bespoke_test.clj`
 
 ## Usage
 
+Use `leiningen`.
+
 ```clojure
+lein deps
 lein test
+lein repl
 ```
 
 Copyright 2014
